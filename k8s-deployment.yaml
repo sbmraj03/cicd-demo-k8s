@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: cicd-demo
-        image: sbmraj03/cicd-demo:latest  # CHANGE THIS!
+        image: sbmraj03/cicd-demo:latest 
         imagePullPolicy: Always  # Always pull latest image
         
         ports:
